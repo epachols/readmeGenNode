@@ -1,2 +1,2 @@
 # readmeGenNode
-A node/js readme generator for projects.
+A node-based markdown file generator for projects, made for node/js.
