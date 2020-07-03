@@ -20,6 +20,7 @@ function generateMarkdown(data) {
   ## Usage: 
    instructions and examples for use. Include screenshots as needed. 
    - ${data.usage}
+  - ![Preview](${data.screen})
   
   
   ## Contributing:

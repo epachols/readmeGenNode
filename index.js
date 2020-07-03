@@ -53,26 +53,28 @@ const questions = [
         message: "How does this app work? (usage instructions):",
         name: "usage",
     },
+    {
+        type: "input", // screen
+        message: "filename of main intended screenshot? (keep it in the project parent folder):",
+        name: "screen",
+    },
     { 
         type: "list", //licenses 
         message: "What license do you choose?",
         choices: [
             // by including ALL the pertinent information in the selection, the strung text will be something akin to "license name, badge, link to it"
-            "GNU GPLv3  - [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  - [License doc](https://choosealicense.com/licenses/gpl-3.0/)",
-            "MIT  - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  - [License doc](https://choosealicense.com/licenses/mit/)",
-            "CC0  - [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]  - [license doc](https://creativecommons.org/publicdomain/zero/1.0/)",
+            "GNU ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg) [License Document](https://www.gnu.org/licenses/gpl-3.0)",
+            "MIT ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [License Document](https://opensource.org/licenses/MIT)",
+            "CC0 ![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png) [License Document](https://creativecommons.org/publicdomain/zero/1.0/)",
         ],
         name: "license",
       },
 ];
 
-// function to write README file **not yet**
+// function to write README file
 function writeToFile(fileName, data) {
-    // fs.writeFile("readme.md", gM)
     fs.writeFile(fileName, generateMarkdown(data), (err) => err)
 }
-
-
 
 // function to initialize program
 async function init() {
@@ -81,7 +83,9 @@ async function init() {
         // making sure the answers object shows up (it does)
         // console.log(answers);
         let generatedMd = await generateMarkdown(answers);
-        writeToFile(`${answers.title}.md`, answers)
+        writeToFile(`${answers.title}.md`, answers);
+
+        console.log('Project Markdown Successfully Generated, thanks for using CodeCrow Services, inc.')
         
     } catch (error) {
         throw error;

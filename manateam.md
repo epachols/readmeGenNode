@@ -1,4 +1,4 @@
-# undefined
+# manateam
 
   |      Table of Contents:       |
   |-------------------------------|
@@ -9,37 +9,38 @@
   |     [License](#license)       |
   
   ## Description:
-   - undefined
+   - seagrass, gentle sunbathing
   
   ## Installation:
-   - undefined
+   - First you evolve a cute expression, then get some flippers.
   
   
   ## Usage: 
    instructions and examples for use. Include screenshots as needed. 
-   - undefined
+   - slowly, and adorably
+  - ![Preview](preview.png)
   
   
   ## Contributing:
    Guidelines for contribution (if any):
-   - undefined  
+   - All are welcome at team manatee  
   
   
   ## Tests:
   Command for running tests for this app:
-  - undefined
+  - jump in the lagoon, hover and snack
   
   
   ## Questions:
-  [sdf's Github](https://github.com/sdf/)
+  [okay's Github](https://github.com/okay/)
   
   
   ## Credits:
    Collaborating Credits:
-   - wer
+   - manatees
   
   ## License:
-  undefined
+  CC0 ![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png) [License Document](https://creativecommons.org/publicdomain/zero/1.0/)
   
   If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
   
@@ -47,5 +48,5 @@
   
   |Thank you!         |
   --------------------
-  |🏆sdf🏆|
+  |🏆okay🏆|
   
