@@ -1,6 +1,4 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  let markdown = `# ${data.title}
+# manateam
 
   |      Table of Contents:       |
   |-------------------------------|
@@ -11,38 +9,38 @@ function generateMarkdown(data) {
   |     [License](#license)       |
   
   ## Description:
-   - ${data.description}
+   - seagrass, gentle sunbathing
   
   ## Installation:
-   - ${data.installation}
+   - First you evolve a cute expression, then get some flippers.
   
   
   ## Usage: 
    instructions and examples for use. Include screenshots as needed. 
-   - ${data.usage}
-  - ![Preview](${data.screen})
+   - slowly, and adorably
+  - ![Preview](preview.png)
   
   
   ## Contributing:
    Guidelines for contribution (if any):
-   - ${data.contribution}  
+   - All are welcome at team manatee  
   
   
   ## Tests:
   Command for running tests for this app:
-  - ${data.tests}
+  - jump in the lagoon, hover and snack
   
   
   ## Questions:
-  [${data.github}'s Github](https://github.com/${data.github}/)
+  [okay's Github](https://github.com/okay/)
   
   
   ## Credits:
    Collaborating Credits:
-   - ${data.credits}
+   - manatees
   
   ## License:
-  ${data.license}
+  CC0 ![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png) [License Document](https://creativecommons.org/publicdomain/zero/1.0/)
   
   If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
   
@@ -50,10 +48,5 @@ function generateMarkdown(data) {
   
   |Thank you!         |
   --------------------
-  |🏆${data.github}🏆|
-  `
-  // console.log(markdown);
-  return markdown;
-}
-
-module.exports = generateMarkdown;
+  |🏆okay🏆|
+  
