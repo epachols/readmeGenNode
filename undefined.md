@@ -1,6 +1,4 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  let markdown = `# ${data.title}
+# undefined
 
   |      Table of Contents:       |
   |-------------------------------|
@@ -11,37 +9,37 @@ function generateMarkdown(data) {
   |     [License](#license)       |
   
   ## Description:
-   - ${data.description}
+   - undefined
   
   ## Installation:
-   - ${data.installation}
+   - undefined
   
   
   ## Usage: 
    instructions and examples for use. Include screenshots as needed. 
-   - ${data.usage}
+   - undefined
   
   
   ## Contributing:
    Guidelines for contribution (if any):
-   - ${data.contribution}  
+   - undefined  
   
   
   ## Tests:
   Command for running tests for this app:
-  - ${data.tests}
+  - undefined
   
   
   ## Questions:
-  [${data.github}'s Github](https://github.com/${data.github}/)
+  [sdf's Github](https://github.com/sdf/)
   
   
   ## Credits:
    Collaborating Credits:
-   - ${data.credits}
+   - wer
   
   ## License:
-  ${data.license}
+  undefined
   
   If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
   
@@ -49,10 +47,5 @@ function generateMarkdown(data) {
   
   |Thank you!         |
   --------------------
-  |🏆${data.github}🏆|
-  `
-  // console.log(markdown);
-  return markdown;
-}
-
-module.exports = generateMarkdown;
+  |🏆sdf🏆|
+  
