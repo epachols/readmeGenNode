@@ -28,8 +28,7 @@
  
   Demo Gif
   - ![Demo Gif](demo.gif)  
-  Demo Video Link
-  [Demo mp4](demo.mp4)
+
   ## Contributing:
    
  Guidelines for contribution (if any): 
