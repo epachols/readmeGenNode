@@ -1,8 +1,8 @@
 const inq = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-// const writeFileAsync = util.promisify(fs.writeFile);
-// the below line may or may not successfully call the function hiding in generateMarkdown, do this after template is built 
+
+// the below line references for calling the function located in generateMarkdown
 const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
@@ -84,8 +84,9 @@ async function init() {
         // console.log(answers);
         let generatedMd = await generateMarkdown(answers);
         writeToFile(`${answers.title}.md`, answers);
-
+        console.log('**')
         console.log('Project Markdown Successfully Generated, thanks for using CodeCrow Services, inc.')
+        console.log('**')
         
     } catch (error) {
         throw error;

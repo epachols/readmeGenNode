@@ -6,31 +6,33 @@ function generateMarkdown(data) {
   |-------------------------------|
   | [Installation](#installation) |
   |        [Usage](#usage)        |
-  |     [Credits](#credits)       |
+  | [Contributing](#contributing) |
+  |     [Tests](#tests)           |
   |    [Questions](#questions)    |
+  |    [Credits](#credits)        |
   |     [License](#license)       |
   
-  ## Description:
-   - ${data.description}
+  ## Description
+  \n ${data.description}
   
-  ## Installation:
-   - ${data.installation}
+  ## Installation
+  \n ${data.installation}
   
   
-  ## Usage: 
-   instructions and examples for use. Include screenshots as needed. 
-   - ${data.usage}
+  ## Usage 
+  \n
+  ${data.usage} \n
   - ![Preview](${data.screen})
   
   
   ## Contributing:
-   Guidelines for contribution (if any):
-   - ${data.contribution}  
+   \n Guidelines for contribution (if any): \n
+   ${data.contribution}  
   
   
   ## Tests:
   Command for running tests for this app:
-  - ${data.tests}
+  \n ${data.tests}
   
   
   ## Questions:
@@ -39,12 +41,13 @@ function generateMarkdown(data) {
   
   ## Credits:
    Collaborating Credits:
-   - ${data.credits}
+  \n ${data.credits}
   
-  ## License:
+  ## License information:
+  \n 
   ${data.license}
   
-  If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+  [https://choosealicense.com/](https://choosealicense.com/)
   
   ---
   
