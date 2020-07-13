@@ -53,7 +53,7 @@ function generateMarkdown(data) {
   
   |Thank you!         |
   --------------------
-  |🏆${data.github}🏆|
+  |🏆 &#x1F981; ${data.github} &#x1F981; 🏆|
   `
   // console.log(markdown);
   return markdown;
