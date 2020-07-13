@@ -47,7 +47,7 @@ If you need help choosing a license, use [https://choosealicense.com/](https://c
 
 |Thank you!         |
 --------------------
-|🏆${data.github}🏆|
+|🏆  ${data.github} 🏆|
 
 
 
